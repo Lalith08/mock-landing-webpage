@@ -129,14 +129,6 @@ main {
     }
   }
  
-
- 
-
-
-  
-
-
-
 /* Footer styles */
 .footer {
     background-color: #0f4783; 
@@ -168,6 +160,7 @@ main {
 
 
 /* Contact-page styles */
+
 .contact-page {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -246,11 +239,7 @@ main {
         background-color: #0056b3;
       }
       
-      .contact-logo {
-        margin-left: 100px; 
-      }
-
-
+      
       .checkmark {
         font-size: 50px;
         color: green;
@@ -273,3 +262,26 @@ main {
           opacity: 1;
         }
       }
+
+      .logo-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      
+      .logo-img {
+        width: 100px;
+        height: auto;
+      }
+
+      .text-center {
+        margin-bottom: 20px; 
+      }
+      
+      .btn {
+        margin-bottom: 10px; 
+      }
+      
+      
+
